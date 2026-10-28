@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://lala-konkatsu.com/sitemap.xml
