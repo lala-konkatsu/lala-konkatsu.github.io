@@ -39,9 +39,8 @@ figure[style*="padding: 36px"]{padding:24px 20px !important;gap:20px !important}
 }
 @media (max-width:760px){.lala-float{display:flex}footer{padding-bottom:76px}}
 .lala-more summary::-webkit-details-marker{display:none}
-.lala-more .lala-more-close{display:none}
-.lala-more[open] .lala-more-open{display:none}
-.lala-more[open] .lala-more-close{display:inline}
+.lala-more .lala-more-label::after{content:"もっと読む"}
+.lala-more[open] .lala-more-label::after{content:"閉じる"}
 .lala-more[open] .lala-more-icon{transform:rotate(180deg)}
 input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset:1px}
 @media (max-width:760px){.lala-nav{display:none}}
@@ -79,8 +78,22 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 </header>
 
 <section id="top" style="background: #F8EDEF">
-<h1 style="margin: 0; display: flex; justify-content: center"><img src="/images/lala-hero.webp" alt="福岡市の結婚相談所LaLa（ララ） あなたらしい幸せな出会いを。" style="display: block; width: 100%; max-width: 860px; aspect-ratio: 1 / 1; object-fit: cover"></h1>
+<h1 style="margin: 0; display: flex; flex-direction: column; align-items: center"><img src="/images/lala-hero.webp" alt="" style="display: block; width: 100%; max-width: 860px; aspect-ratio: 1 / 1; object-fit: cover"><span style="display: block; padding: 14px 16px 18px; font-family: 'Shippori Mincho', serif; font-size: 17px; font-weight: 700; letter-spacing: 0.06em; color: #4A3F4C; text-align: center">福岡市の結婚相談所LaLa（ララ）</span></h1>
 </section>
+<!-- XMAS-CAMPAIGN START（12/20終了後に削除） -->
+<section id="xmas" aria-label="クリスマス婚活キャンペーン" style="background: #F8EDEF; padding: 8px 16px 0">
+<div style="position: relative; overflow: hidden; max-width: 760px; margin: 0 auto; padding: 34px 22px 30px; border-radius: 24px; background: radial-gradient(120% 90% at 50% 0%, #A3243A 0%, #7A1426 55%, #520C19 100%); border: 2px solid #D9B56A; box-shadow: 0 16px 36px rgba(82,12,25,.28); color: #FFFFFF; text-align: center">
+<svg aria-hidden="true" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#E8C77A" stroke-width="1.4" stroke-linecap="round" style="position:absolute;top:18px;left:18px;opacity:0.55"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M12 2l-2 2M12 2l2 2M12 22l-2-2M12 22l2-2"/></svg><svg aria-hidden="true" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#E8C77A" stroke-width="1.4" stroke-linecap="round" style="position:absolute;top:64px;right:28px;opacity:0.45"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M12 2l-2 2M12 2l2 2M12 22l-2-2M12 22l2-2"/></svg><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#E8C77A" stroke-width="1.4" stroke-linecap="round" style="position:absolute;bottom:30px;left:40px;opacity:0.35"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M12 2l-2 2M12 2l2 2M12 22l-2-2M12 22l2-2"/></svg><svg aria-hidden="true" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8C77A" stroke-width="1.4" stroke-linecap="round" style="position:absolute;bottom:22px;right:22px;opacity:0.5"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M12 2l-2 2M12 2l2 2M12 22l-2-2M12 22l2-2"/></svg><svg aria-hidden="true" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#E8C77A" stroke-width="1.4" stroke-linecap="round" style="position:absolute;top:30px;left:46%;opacity:0.35"><path d="M12 2v20M3.3 7l17.4 10M3.3 17L20.7 7M12 2l-2 2M12 2l2 2M12 22l-2-2M12 22l2-2"/></svg>
+<p style="position: relative; margin: 0; font-size: 13px; letter-spacing: 0.14em; color: #F3DFA8">この冬、素敵な出会いを見つけよう。</p>
+<h2 style="position: relative; margin: 8px 0 4px; font-family: 'Shippori Mincho', serif; font-size: clamp(26px, 7vw, 38px); line-height: 1.35; color: #F3D58C">クリスマス<br>婚活キャンペーン</h2>
+<p style="position: relative; margin: 0 0 18px; font-size: 13px; color: #FBEFD3">オンライン完結コースが対象</p>
+<p style="position: relative; margin: 0; font-family: 'Shippori Mincho', serif; font-size: clamp(22px, 6vw, 30px); font-weight: 700; line-height: 1.5">月額<span style="font-size: 1.5em; color: #F3D58C">3ヶ月</span>無料！<br>お見合いも<span style="color: #F3D58C">会い放題！</span></p>
+<p style="position: relative; display: inline-block; margin: 16px 0 0; padding: 6px 18px; border-radius: 999px; background: #F3D58C; color: #6B1020; font-size: 15px; font-weight: 700">先着10名さま限定・12月20日まで</p>
+<div style="position: relative; margin-top: 20px"><a href="https://lin.ee/qpE3fHC" target="_blank" rel="noopener" style="display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 28px; border-radius: 999px; background: #FFFFFF; color: #7A1426; text-decoration: none; font-weight: 700">公式LINEで「クリスマス」と送る</a></div>
+<p style="position: relative; margin: 14px 0 0; font-size: 11px; line-height: 1.7; color: #F1DCDF">※月会費とお見合い料が3ヶ月分無料になります。入会金は別途かかります。<br>※6ヶ月以上の継続が条件です。</p>
+</div>
+</section>
+<!-- XMAS-CAMPAIGN END -->
 
 <section style="background: #F8EDEF; border-top: 1px solid #EFE3E6">
 <div style="max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; text-align: center">
@@ -128,7 +141,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <h2 style="margin: 8px 0 14px; text-align: center; font-family: 'Shippori Mincho', serif; font-size: 34px; line-height: 1.5">全国の<wbr>会員さまと<wbr>出会える<br>TMS加盟の<wbr>安心ネットワーク</h2>
 <p style="margin: 0 auto 48px; max-width: 680px; text-align: center; color: #E6DDE3; font-size: 15px">LaLaは、<wbr>創業40年の<wbr>「TMS全国結婚相談事業者連盟」に<wbr>加盟しています。<wbr>LaLaの<wbr>会員さまだけでなく、<wbr>全国の<wbr>加盟相談所に<wbr>登録する<wbr>会員さま<wbr>（海外在住の<wbr>日本人の方や<wbr>外国籍の方も<wbr>含む）との<wbr>お見合いが<wbr>可能です。<wbr>ご希望に<wbr>応じて、<wbr>他連盟の<wbr>会員さまと<wbr>出会える<wbr>コネクトシップも<wbr>お選びいただけます。</p>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px">
-<div style="padding: 32px 20px; border-radius: 20px; background: #3A3140; text-align: center"><p style="margin: 0; font-size: 14px; color: #E6DDE3">お見合いできる会員数</p><p style="margin: 6px 0 0; font-family: 'Shippori Mincho', serif; font-size: 44px; font-weight: 700; line-height: 1.3"><span style="font-size: 18px">約</span>80,000<span style="font-size: 18px">名以上</span></p></div>
+<div style="padding: 32px 20px; border-radius: 20px; background: #3A3140; text-align: center"><p style="margin: 0; font-size: 14px; color: #E6DDE3">お見合いできる会員数</p><p style="margin: 6px 0 0; font-family: 'Shippori Mincho', serif; font-size: 44px; font-weight: 700; line-height: 1.3"><span style="font-size: 18px">約</span>80,000<span style="font-size: 18px">名</span></p></div>
 <div style="padding: 32px 20px; border-radius: 20px; background: #3A3140; text-align: center"><p style="margin: 0; font-size: 14px; color: #E6DDE3">加盟相談所数</p><p style="margin: 6px 0 0; font-family: 'Shippori Mincho', serif; font-size: 44px; font-weight: 700; line-height: 1.3">1,422<span style="font-size: 18px">店</span></p></div>
 <div style="padding: 32px 20px; border-radius: 20px; background: #3A3140; text-align: center"><p style="margin: 0; font-size: 14px; color: #E6DDE3">2025年 成婚者数</p><p style="margin: 6px 0 0; font-family: 'Shippori Mincho', serif; font-size: 44px; font-weight: 700; line-height: 1.3">7,207<span style="font-size: 18px">名</span></p></div>
 <div style="padding: 32px 20px; border-radius: 20px; background: #3A3140; text-align: center"><p style="margin: 0; font-size: 14px; color: #E6DDE3">連盟の歴史</p><p style="margin: 6px 0 0; font-family: 'Shippori Mincho', serif; font-size: 44px; font-weight: 700; line-height: 1.3">40<span style="font-size: 18px">年</span></p></div>
@@ -225,7 +238,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <p style="margin: 0; font-size: 13px; color: #9B3654; font-weight: 700; letter-spacing: 0.1em">ONLINE</p>
 <h3 style="margin: 6px 0 12px; font-family: 'Shippori Mincho', serif; font-size: 24px">オンライン完結コース</h3>
 <p style="margin: 0 0 20px; font-size: 15px; color: #4A3F4C">全国どこからでも、来店不要。マッチングアプリでは出会えない、誠実に結婚を考える人と確実に会える。身元の確かな会員さまとの出会いを、結婚相談所のサポート付きで。</p>
-<div style="margin: 0 0 20px; padding: 12px 14px; border-radius: 12px; background: #FBEAEF; border: 1px solid #EBC7D1; font-size: 14px; color: #7A2440"><span style="display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: #9B3654; color: #FFFFFF; font-size: 11px; font-weight: 700">今だけ</span>月会費とお見合い料が3ヶ月分無料<span style="display: block; font-size: 12px; color: #6E6270">お申し込み期限：2026年12月20日まで<br>※6ヶ月以上の継続が条件です</span></div><div style="margin: 0 0 20px; font-size: 15px; border-top: 1px solid #EFE3E6">
+<div style="margin: 0 0 20px; padding: 12px 14px; border-radius: 12px; background: linear-gradient(135deg, #8B1A2E, #5E0F1C); border: 1.5px solid #D9B56A; font-size: 14px; color: #FFFFFF"><span style="display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: #F3D58C; color: #6B1020; font-size: 11px; font-weight: 700">クリスマス婚活キャンペーン</span><span style="display: block; margin-top: 6px; font-weight: 700">月会費とお見合い料が3ヶ月分無料（会い放題）</span><span style="display: block; font-size: 12px; color: #F1DCDF">先着10名さま限定・お申し込み期限：2026年12月20日まで<br>※6ヶ月以上の継続が条件です</span></div><div style="margin: 0 0 20px; font-size: 15px; border-top: 1px solid #EFE3E6">
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>入会金</span><span style="text-align: right; font-weight: 700">33,000円</span></div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費</span><span style="text-align: right; font-weight: 700">16,500円</span></div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>お見合い料</span><span style="text-align: right; font-weight: 700">1回 5,500円</span></div>
@@ -246,8 +259,8 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <p style="margin: 0 0 20px; font-size: 15px; color: #4A3F4C">専任カウンセラーと二人三脚。オーダーメイド婚活で、しっかりサポートを受けたい方に。</p>
 <div style="margin: 0 0 20px; font-size: 15px; border-top: 1px solid #EFE3E6">
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>入会金</span><span style="text-align: right; font-weight: 700">300,000円</span></div>
-<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費</span><span style="text-align: right; font-weight: 700">11,000円<span style="display: block; font-size: 12px; color: #6E6270; font-weight: 400">お見合い料 1回 5,500円</span></span></div>
-<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費（会い放題）</span><span style="text-align: right; font-weight: 700">22,000円<span style="display: block; font-size: 12px; color: #6E6270; font-weight: 400">お見合い料 無料</span></span></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費<span style="display: block; font-size: 12px; color: #6E6270">（通常プラン）</span></span><span style="text-align: right; font-weight: 700">11,000円<span style="display: block; font-size: 12px; color: #6E6270; font-weight: 400; white-space: nowrap">（お見合い料 1回 5,500円）</span></span></div>
+<div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費<span style="display: block; font-size: 12px; color: #6E6270">（会い放題プラン）</span></span><span style="text-align: right; font-weight: 700">22,000円<span style="display: block; font-size: 12px; color: #6E6270; font-weight: 400; white-space: nowrap">（お見合い料 何回でも無料）</span></span></div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>成婚料</span><span style="text-align: right; font-weight: 700">330,000円</span></div>
 </div>
 <p style="margin: 0 0 8px; font-size: 13px; font-weight: 700; color: #9B3654">コースに含まれるもの</p>
@@ -264,7 +277,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <div style="display: flex; flex-direction: column; padding: 40px 28px 32px; border-radius: 24px; background: #FFFFFF; ">
 <p style="margin: 0; font-size: 13px; color: #9B3654; font-weight: 700; letter-spacing: 0.1em">40s+</p>
 <h3 style="margin: 6px 0 12px; font-family: 'Shippori Mincho', serif; font-size: 24px">40代以上の大人コース</h3>
-<p style="margin: 0 0 20px; font-size: 15px; color: #4A3F4C">40歳以上の方限定。肩ひじ張らずに、素敵なパートナーとのデートを楽しみたい大人の方へ。再婚の方も歓迎です。</p>
+<p style="margin: 0 0 20px; font-size: 15px; color: #4A3F4C">40代以上の方限定。肩ひじ張らずに、素敵なパートナーとのデートを楽しみたい大人の方へ。再婚の方も歓迎です。</p>
 <div style="margin: 0 0 20px; padding: 12px 14px; border-radius: 12px; background: #FBEAEF; border: 1px solid #EBC7D1; font-size: 14px; color: #7A2440"><span style="display: inline-block; margin-right: 6px; padding: 1px 8px; border-radius: 999px; background: #9B3654; color: #FFFFFF; font-size: 11px; font-weight: 700">今だけ</span>入会金 0円＆月会費 16,500円 → 8,800円<span style="display: block; font-size: 12px; color: #6E6270">お申し込み期限：2026年12月20日まで<br>※入会金0円は6ヶ月以上の継続が条件です</span></div><div style="margin: 0 0 20px; font-size: 15px; border-top: 1px solid #EFE3E6">
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>入会金</span><span style="text-align: right; font-weight: 700"><span style="text-decoration: line-through; color: #6E6270; font-weight: 400; margin-right: 6px">33,000円</span>0円</span></div>
 <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 12px; padding: 8px 0; border-bottom: 1px dashed #EFE3E6"><span>月会費</span><span style="text-align: right; font-weight: 700"><span style="text-decoration: line-through; color: #6E6270; font-weight: 400; margin-right: 6px">16,500円</span>8,800円</span></div>
@@ -344,7 +357,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 </figure>
 
 <details class="lala-more" style="grid-column: 1 / -1">
-<summary style="list-style: none; display: flex; align-items: center; justify-content: center; gap: 8px; width: fit-content; min-height: 52px; margin: 0 auto; padding: 0 28px; border-radius: 999px; border: 1.5px solid #9B3654; background: #FFFFFF; color: #9B3654; font-weight: 700; cursor: pointer"><span class="lala-more-open">もっと読む</span><span class="lala-more-close">閉じる</span><svg class="lala-more-icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9B3654" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></summary>
+<summary style="list-style: none; display: flex; align-items: center; justify-content: center; gap: 8px; width: fit-content; min-height: 52px; margin: 0 auto; padding: 0 28px; border-radius: 999px; border: 1.5px solid #9B3654; background: #FFFFFF; color: #9B3654; font-weight: 700; cursor: pointer"><span class="lala-more-label"></span><svg class="lala-more-icon" aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#9B3654" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"></path></svg></summary>
 <div style="display: grid; gap: 28px; margin-top: 28px">
 <figure style="grid-column: 1 / -1; margin: 0; padding: 36px; border-radius: 24px; background: #FBF4F6; border: 1px solid #EFE3E6; display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
 <img src="/images/voice-3.webp" alt="婚約指輪をつけて笑顔のおふたり" style="flex: 1 1 260px; min-width: 0; max-width: 300px; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 20px; margin: 0 auto; display: block">
@@ -437,11 +450,11 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <div style="padding: 36px 32px; border-radius: 24px; background: #FBF4F6; border: 1px solid #EBC7D1; display: flex; flex-wrap: wrap; align-items: center; gap: 24px 36px">
 <div style="flex: 999 1 340px; min-width: 0">
 <p style="margin: 0 0 6px; font-size: 13px; letter-spacing: 0.15em; color: #9B3654; font-weight: 700">公式LINE限定・無料</p>
-<h2 style="margin: 0 0 10px; font-family: 'Shippori Mincho', serif; font-size: 26px; line-height: 1.5">「占い」と送るだけ。<wbr>動物占いで<wbr>あなたに<wbr>おすすめの<wbr>結婚相手がわかる</h2>
-<p style="margin: 0; font-size: 15px; color: #4A3F4C">公式LINE「婚活ラボ【LaLa】」に登録して「占い」と送ってね。ホームページを見てくださった方に、動物占い（個性心理学）で「あなたにおすすめの結婚相手」を無料でプレゼントします。面談のご予約は不要。婚活をするか迷っている方も、気軽に楽しんでください。</p>
+<h2 style="margin: 0 0 10px; font-family: 'Shippori Mincho', serif; font-size: 26px; line-height: 1.5">「占い」と送るだけ。<wbr>結婚タイプ診断で<wbr>あなたに<wbr>おすすめの<wbr>結婚相手がわかる</h2>
+<p style="margin: 0; font-size: 15px; color: #4A3F4C">公式LINE「婚活ラボ【LaLa】」に登録して「占い」と送ってね。ホームページを見てくださった方に、結婚タイプ診断（動物占い・個性心理学）で「あなたにおすすめの結婚相手」を無料でプレゼントします。面談のご予約は不要。婚活をするか迷っている方も、気軽に楽しんでください。</p>
 <figure style="margin: 20px 0 0; padding: 0; max-width: 300px">
 <figcaption style="margin: 0 0 8px; font-size: 13px; font-weight: 700; color: #9B3654">実際に届く診断結果</figcaption>
-<img src="/images/line-sample.webp" alt="公式LINEで届く動物占いの診断結果。ピッタリな結婚相手の部分はぼかしてあり、続きはLINEで読めます" style="display: block; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 28px rgba(43,36,48,0.16)">
+<img src="/images/line-sample.webp" alt="公式LINEで届く結婚タイプ診断の結果。ピッタリな結婚相手の部分はぼかしてあり、続きはLINEで読めます" style="display: block; width: 100%; height: auto; border-radius: 20px; box-shadow: 0 10px 28px rgba(43,36,48,0.16)">
 <p style="margin: 8px 0 0; font-size: 13px; font-weight: 700; color: #9B3654; text-align: center">ピッタリな結婚相手は…続きはLINEで</p>
 </figure>
 <p style="margin: 8px 0 0; font-size: 12px; color: #6E6270">※いただいた情報は、占い結果のお届けとLaLaからのご案内にのみ使用します。</p>
@@ -468,7 +481,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <p style="margin: 0 0 6px; font-weight: 700; color: #9B3654">入会手続きも、LINEだけで完結</p>
 <p style="margin: 0; font-size: 14px; color: #4A3F4C">お電話や面談なしで、LINEのやり取りだけでご入会いただけます。カウンセリングなしで始めたい方は、公式LINEに「<strong style="color: #9B3654">入会手続き</strong>」と送ってください。</p>
 </div>
-<p style="margin: 0; font-size: 13px; color: #6E6270; text-align: center">カウンセリングはオンライン・福岡市内のサロンのどちらでも可能です。<br>キャンペーンは「0円スタート」と送ってください。</p>
+<p style="margin: 0; font-size: 13px; color: #6E6270; text-align: center">カウンセリングはオンライン・福岡市内のサロンのどちらでも可能です。<br>キャンペーンは「クリスマス」と送ってください。</p>
 </div>
 </div>
 </section>
@@ -491,7 +504,7 @@ input:focus,select:focus,textarea:focus{outline:2px solid #9B3654;outline-offset
 <p style="margin: 0">サロン：福岡市内のサロン（完全予約制。詳しい場所はご予約時にご案内します）</p>
 <p style="margin: 0">営業時間：11:00〜18:00（定休日：月曜・火曜）</p>
 <p style="margin: 0"><a href="/column" style="color: #FFFFFF">婚活コラム</a>　<a href="/links/" style="color: #FFFFFF">公式リンク</a></p>
-<p style="margin: 4px 0 0">© LaLa 結婚相談所</p>
+<p style="margin: 4px 0 0">© 結婚相談所LaLa</p>
 </div>
 </div>
 </footer>
